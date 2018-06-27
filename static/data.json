@@ -827,6 +827,11 @@
         "Simulation": 1,
         "Strategy": 1,
         "Casual": 0.6
+      },
+      "audiences": {
+        "Young": 0.8,
+        "Everyone": 0.9,
+        "Mature": 1
       }
     },
     {
@@ -838,6 +843,11 @@
         "Simulation": 0.9,
         "Strategy": 1,
         "Casual": 0.7
+      },
+      "audiences": {
+        "Young": 0.8,
+        "Everyone": 0.9,
+        "Mature": 1
       }
     },
     {
@@ -849,6 +859,11 @@
         "Simulation": 0.8,
         "Strategy": 0.7,
         "Casual": 1
+      },
+      "audiences": {
+        "Young": 1,
+        "Everyone": 0.9,
+        "Mature": 0.6
       }
     },
     {
@@ -860,6 +875,11 @@
         "Simulation": 0.8,
         "Strategy": 0.7,
         "Casual": 1
+      },
+      "audiences": {
+        "Young": 0.9,
+        "Everyone": 1,
+        "Mature": 0.7
       }
     },
     {
@@ -871,6 +891,11 @@
         "Simulation": 0.9,
         "Strategy": 0.6,
         "Casual": 1
+      },
+      "audiences": {
+        "Young": 1,
+        "Everyone": 0.9,
+        "Mature": 0.6
       }
     },
     {
@@ -882,6 +907,11 @@
         "Simulation": 0.9,
         "Strategy": 0.6,
         "Casual": 1
+      },
+      "audiences": {
+        "Young": 0.9,
+        "Everyone": 1,
+        "Mature": 0.8
       }
     },
     {
@@ -893,6 +923,11 @@
         "Simulation": 0.9,
         "Strategy": 0.6,
         "Casual": 0.7
+      },
+      "audiences": {
+        "Young": 0.8,
+        "Everyone": 1,
+        "Mature": 0.9
       }
     },
     {
@@ -904,6 +939,11 @@
         "Simulation": 1,
         "Strategy": 0.7,
         "Casual": 0.9
+      },
+      "audiences": {
+        "Young": 1,
+        "Everyone": 0.9,
+        "Mature": 0.7
       }
     },
     {
@@ -915,6 +955,11 @@
         "Simulation": 0.9,
         "Strategy": 0.7,
         "Casual": 0.6
+      },
+      "audiences": {
+        "Young": 0.8,
+        "Everyone": 1,
+        "Mature": 0.9
       }
     },
     {
@@ -926,6 +971,11 @@
         "Simulation": 0.8,
         "Strategy": 0.7,
         "Casual": 0.9
+      },
+      "audiences": {
+        "Young": 1,
+        "Everyone": 0.9,
+        "Mature": 0.9
       }
     },
     {
@@ -937,6 +987,11 @@
         "Simulation": 1,
         "Strategy": 0.7,
         "Casual": 0.7
+      },
+      "audiences": {
+        "Young": 0.7,
+        "Everyone": 1,
+        "Mature": 1
       }
     },
     {
@@ -948,6 +1003,11 @@
         "Simulation": 0.9,
         "Strategy": 0.7,
         "Casual": 0.9
+      },
+      "audiences": {
+        "Young": 0.9,
+        "Everyone": 1,
+        "Mature": 0.8
       }
     },
     {
@@ -959,6 +1019,11 @@
         "Simulation": 0.9,
         "Strategy": 0.7,
         "Casual": 0.7
+      },
+      "audiences": {
+        "Young": 0.8,
+        "Everyone": 1,
+        "Mature": 0.9
       }
     },
     {
@@ -970,6 +1035,11 @@
         "Simulation": 0.8,
         "Strategy": 0.7,
         "Casual": 1
+      },
+      "audiences": {
+        "Young": 0.9,
+        "Everyone": 0.9,
+        "Mature": 0.8
       }
     },
     {
@@ -981,6 +1051,11 @@
         "Simulation": 0.9,
         "Strategy": 0.9,
         "Casual": 1
+      },
+      "audiences": {
+        "Young": 1,
+        "Everyone": 0.9,
+        "Mature": 0.8
       }
     },
     {
@@ -992,6 +1067,11 @@
         "Simulation": 0.8,
         "Strategy": 0.8,
         "Casual": 0.8
+      },
+      "audiences": {
+        "Young": 0.8,
+        "Everyone": 0.9,
+        "Mature": 1
       }
     },
     {
@@ -1003,6 +1083,11 @@
         "Simulation": 0.9,
         "Strategy": 0.7,
         "Casual": 0.9
+      },
+      "audiences": {
+        "Young": 0.8,
+        "Everyone": 0.9,
+        "Mature": 1
       }
     },
     {
@@ -1014,6 +1099,11 @@
         "Simulation": 1,
         "Strategy": 0.7,
         "Casual": 1
+      },
+      "audiences": {
+        "Young": 1,
+        "Everyone": 1,
+        "Mature": 0.7
       }
     },
     {
@@ -1025,6 +1115,11 @@
         "Simulation": 1,
         "Strategy": 0.7,
         "Casual": 0.8
+      },
+      "audiences": {
+        "Young": 0.8,
+        "Everyone": 1,
+        "Mature": 0.9
       }
     },
     {
@@ -1036,6 +1131,11 @@
         "Simulation": 0.9,
         "Strategy": 0.7,
         "Casual": 1
+      },
+      "audiences": {
+        "Young": 0.9,
+        "Everyone": 1,
+        "Mature": 0.6
       }
     },
     {
@@ -1047,6 +1147,11 @@
         "Simulation": 0.9,
         "Strategy": 0.9,
         "Casual": 1
+      },
+      "audiences": {
+        "Young": 0.9,
+        "Everyone": 1,
+        "Mature": 0.6
       }
     },
     {
@@ -1058,6 +1163,11 @@
         "Simulation": 0.9,
         "Strategy": 0.7,
         "Casual": 0.9
+      },
+      "audiences": {
+        "Young": 0.7,
+        "Everyone": 0.9,
+        "Mature": 0.8
       }
     },
     {
@@ -1069,6 +1179,11 @@
         "Simulation": 1,
         "Strategy": 0.7,
         "Casual": 1
+      },
+      "audiences": {
+        "Young": 0.9,
+        "Everyone": 1,
+        "Mature": 0.7
       }
     },
     {
@@ -1080,6 +1195,11 @@
         "Simulation": 0.9,
         "Strategy": 0.8,
         "Casual": 1
+      },
+      "audiences": {
+        "Young": 0.8,
+        "Everyone": 1,
+        "Mature": 0.9
       }
     },
     {
@@ -1091,6 +1211,11 @@
         "Simulation": 0.9,
         "Strategy": 0.7,
         "Casual": 0.9
+      },
+      "audiences": {
+        "Young": 0.7,
+        "Everyone": 1,
+        "Mature": 0.8
       }
     },
     {
@@ -1102,6 +1227,11 @@
         "Simulation": 0.9,
         "Strategy": 0.7,
         "Casual": 0.9
+      },
+      "audiences": {
+        "Young": 0.8,
+        "Everyone": 1,
+        "Mature": 0.7
       }
     },
     {
@@ -1113,6 +1243,11 @@
         "Simulation": 0.8,
         "Strategy": 0.7,
         "Casual": 1
+      },
+      "audiences": {
+        "Young": 0.9,
+        "Everyone": 1,
+        "Mature": 0.7
       }
     },
     {
@@ -1124,6 +1259,11 @@
         "Simulation": 1,
         "Strategy": 0.7,
         "Casual": 0.9
+      },
+      "audiences": {
+        "Young": 0.8,
+        "Everyone": 1,
+        "Mature": 0.8
       }
     }
   ]

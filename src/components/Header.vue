@@ -14,7 +14,12 @@
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
-
+          <li class="nav-item">
+            <a class="nav-link" href="#topics">Topics</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#platforms">Platforms</a>
+          </li>
         </ul>
         <form class="form-inline my-0">
           <div class="input-group mr-sm-3 ">

@@ -9,7 +9,7 @@
     "start": "npm run dev",
     "lint": "eslint --ext .js,.vue src",
     "build": "node build/build.js",
-    "deploy": "npm run build && cd dist && surge"
+    "deploy": "npm run build && surge --project dist https://game-dev-tycoon-helper.surge.sh/"
   },
   "dependencies": {
     "bootstrap": "^4.1.1",

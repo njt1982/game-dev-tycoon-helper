@@ -15,3 +15,12 @@
   .table-cell-mm  { background-color: #773d3d; &:after { content: '--'; } }
   .table-cell-mmm { background-color: #963333; &:after { content: '---'; } }
 }
+
+.table-responsive {
+  position: relative;
+  a[name] {
+    position: absolute;
+    left: 0px;
+    top: -92px;
+  }
+}

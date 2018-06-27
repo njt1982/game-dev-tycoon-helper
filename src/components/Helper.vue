@@ -1,10 +1,13 @@
 <template>
   <div class="container mt-4">
-    <div class="table-responsive">
+    <div class="table-responsive mb-5">
+      <a name="topics"></a>
+      <h2>Topics</h2>
       <table class="table table-bordered">
         <thead>
           <th class="border-top-0 border-left-0"></th>
           <th class="text-center border-bottom-0" :colspan="genres.length">Genres</th>
+          <th class="border-bottom-0 border-top-0"></th>
           <th class="text-center border-bottom-0" :colspan="audiences.length">Audience</th>
         </thead>
         <thead>
@@ -19,6 +22,7 @@
             :class="['text-center', currentSort.indexOf(genre) !== -1 ? 'table-info' : '']">
             {{genre}}
           </th>
+          <th class="border-bottom-0 border-top-0"></th>
           <th scope="col"
             v-for="audience in audiences"
             :key="audience"
@@ -36,10 +40,62 @@
               :class="['text-center', cellClass(topic.genres[genre])]">
               {{topic.genres[genre]}}
             </td>
+            <td></td>
             <td v-for="audience in audiences"
               :key="topic + audience"
               :class="['text-center', cellClass(topic.audiences[audience])]">
               {{topic.audiences[audience]}}
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="table-responsive">
+      <a name="platforms"></a>
+      <h2>Platforms</h2>
+      <table class="table table-bordered">
+        <thead>
+          <th class="border-top-0 border-left-0"></th>
+          <th class="text-center border-bottom-0" :colspan="genres.length">Genres</th>
+          <th class="border-bottom-0 border-top-0"></th>
+          <th class="text-center border-bottom-0" :colspan="audiences.length">Audience</th>
+        </thead>
+        <thead>
+          <th scope="col"
+            :class="currentSort.length === 0 ? 'table-info' : ''">
+            Platform
+          </th>
+          <th scope="col"
+            v-for="genre in genres"
+            :key="genre"
+            @click="sort(genre)"
+            :class="['text-center', currentSort.indexOf(genre) !== -1 ? 'table-info' : '']">
+            {{genre}}
+          </th>
+          <th class="border-bottom-0 border-top-0"></th>
+          <th scope="col"
+            v-for="audience in audiences"
+            :key="audience"
+            @click="sort(audience)"
+            :class="['text-center', currentSort.indexOf(audience) !== -1 ? 'table-info' : '']">
+            {{audience}}
+          </th>
+        </thead>
+
+        <tbody>
+          <tr v-for="platform in sortedPlatforms" :key="platform.platform">
+            <th scope="row">{{platform.platform}}</th>
+            <td v-for="genre in genres"
+              :key="platform + genre"
+              :class="['text-center', cellClass(platform.genres[genre])]">
+              {{platform.genres[genre]}}
+            </td>
+            <td></td>
+            <td v-for="audience in audiences"
+              :key="platform + audience"
+              :class="['text-center', cellClass(platform.audiences[audience])]">
+              {{platform.audiences[audience]}}
             </td>
           </tr>
         </tbody>
@@ -141,10 +197,35 @@ export default {
         return a.topic.localeCompare(b.topic) * modifier;
       });
     },
+
+    sortedPlatforms() {
+      const modifier = this.currentSortDirAsc ? 1 : -1;
+
+      let s = [...this.platforms];
+      if (this.filter.length) {
+        s = s.filter(item => item.platform.toLowerCase().includes(this.filter.toLowerCase()));
+      }
+      return s.sort((a, b) => {
+        if (this.currentSort.length) {
+          const sortStack = [...this.currentSort];
+          while (sortStack.length) {
+            const sortKey = sortStack.shift();
+
+            let section = null;
+            if (this.genres.indexOf(sortKey) !== -1) {
+              section = 'genres';
+            } else if (this.audiences.indexOf(sortKey) !== -1) {
+              section = 'audiences';
+            }
+            const aVal = a[section][sortKey];
+            const bVal = b[section][sortKey];
+            if (aVal < bVal) return -1 * modifier;
+            if (aVal > bVal) return 1 * modifier;
+          }
+        }
+        return a.platform.localeCompare(b.platform) * modifier;
+      });
+    },
   },
 };
 </script>
-
-<!-- Add 'scoped' attribute to limit CSS to this component only -->
-<style scoped>
-</style>
