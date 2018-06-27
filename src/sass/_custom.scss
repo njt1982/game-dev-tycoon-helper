@@ -1,0 +1,17 @@
+.table {
+  th {
+    font-weight: lighter;
+  }
+  .table-cell-ppp, .table-cell-pp, .table-cell-p, .table-cell-mm, .table-cell-mmm {
+    font-size: 0;
+    &:after {
+      font-size: 1rem;
+      color: rgba(255,255,255, 0.6666);
+    }
+  }
+  .table-cell-ppp { background-color: #329632; &:after { content: '+++'; } }
+  .table-cell-pp  { background-color: #3c773d; &:after { content: '++'; } }
+  .table-cell-p   { background-color: #465a46; &:after { content: '+'; } }
+  .table-cell-mm  { background-color: #773d3d; &:after { content: '--'; } }
+  .table-cell-mmm { background-color: #963333; &:after { content: '---'; } }
+}

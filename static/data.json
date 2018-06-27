@@ -1,0 +1,1130 @@
+{
+  "topics": [
+    {
+      "topic": "Airplane",
+      "genres": {
+        "Action": 1,
+        "Adventure": 0.6,
+        "RPG": 0.8,
+        "Simulation": 1,
+        "Strategy": 1,
+        "Casual": 1
+      },
+      "audiences": {
+        "Young": 1,
+        "Everyone": 1,
+        "Mature": 0.9
+      }
+    },
+    {
+      "topic": "Aliens",
+      "genres": {
+        "Action": 1,
+        "Adventure": 0.8,
+        "RPG": 1,
+        "Simulation": 0.6,
+        "Strategy": 0.9,
+        "Casual": 0.7
+      },
+      "audiences": {
+        "Young": 0.9,
+        "Everyone": 1,
+        "Mature": 1
+      }
+    },
+    {
+      "topic": "Alternate History",
+      "genres": {
+        "Action": 1,
+        "Adventure": 0.8,
+        "RPG": 1,
+        "Simulation": 0.6,
+        "Strategy": 0.9,
+        "Casual": 0.6
+      },
+      "audiences": {
+        "Young": 0.3,
+        "Everyone": 1.5,
+        "Mature": 1
+      }
+    },
+    {
+      "topic": "Business",
+      "genres": {
+        "Action": 0.6,
+        "Adventure": 0.8,
+        "RPG": 0.8,
+        "Simulation": 1,
+        "Strategy": 1,
+        "Casual": 0.6
+      },
+      "audiences": {
+        "Young": 0.9,
+        "Everyone": 1,
+        "Mature": 0.7
+      }
+    },
+    {
+      "topic": "City",
+      "genres": {
+        "Action": 0.7,
+        "Adventure": 0.6,
+        "RPG": 0.7,
+        "Simulation": 1,
+        "Strategy": 1,
+        "Casual": 0.7
+      },
+      "audiences": {
+        "Young": 0.9,
+        "Everyone": 1.5,
+        "Mature": 0.8
+      }
+    },
+    {
+      "topic": "Comedy",
+      "genres": {
+        "Action": 0.6,
+        "Adventure": 1,
+        "RPG": 0.8,
+        "Simulation": 0.6,
+        "Strategy": 0.6,
+        "Casual": 1
+      },
+      "audiences": {
+        "Young": 0.8,
+        "Everyone": 0.9,
+        "Mature": 1
+      }
+    },
+    {
+      "topic": "Cyberpunk",
+      "genres": {
+        "Action": 1,
+        "Adventure": 0.8,
+        "RPG": 1,
+        "Simulation": 0.8,
+        "Strategy": 0.7,
+        "Casual": 0.6
+      },
+      "audiences": {
+        "Young": 0.7,
+        "Everyone": 0.9,
+        "Mature": 1
+      }
+    },
+    {
+      "topic": "Dance",
+      "genres": {
+        "Action": 0.7,
+        "Adventure": 0.6,
+        "RPG": 0.6,
+        "Simulation": 1,
+        "Strategy": 0.6,
+        "Casual": 1
+      },
+      "audiences": {
+        "Young": 1,
+        "Everyone": 0.9,
+        "Mature": 0.8
+      }
+    },
+    {
+      "topic": "Detective",
+      "genres": {
+        "Action": 0.6,
+        "Adventure": 1,
+        "RPG": 1,
+        "Simulation": 0.8,
+        "Strategy": 0.6,
+        "Casual": 0.9
+      },
+      "audiences": {
+        "Young": 0.9,
+        "Everyone": 1,
+        "Mature": 0.8
+      }
+    },
+    {
+      "topic": "Dungeon",
+      "genres": {
+        "Action": 1,
+        "Adventure": 0.8,
+        "RPG": 1,
+        "Simulation": 1,
+        "Strategy": 1,
+        "Casual": 0.6
+      },
+      "audiences": {
+        "Young": 0.8,
+        "Everyone": 1,
+        "Mature": 1
+      }
+    },
+    {
+      "topic": "Evolution",
+      "genres": {
+        "Action": 0.7,
+        "Adventure": 0.6,
+        "RPG": 0.6,
+        "Simulation": 1,
+        "Strategy": 1,
+        "Casual": 0.6
+      },
+      "audiences": {
+        "Young": 0.8,
+        "Everyone": 1,
+        "Mature": 0.7
+      }
+    },
+    {
+      "topic": "Fantasy",
+      "genres": {
+        "Action": 1,
+        "Adventure": 1,
+        "RPG": 1,
+        "Simulation": 0.8,
+        "Strategy": 1,
+        "Casual": 0.6
+      },
+      "audiences": {
+        "Young": 1,
+        "Everyone": 1,
+        "Mature": 1
+      }
+    },
+    {
+      "topic": "Fashion",
+      "genres": {
+        "Action": 0.6,
+        "Adventure": 0.8,
+        "RPG": 1,
+        "Simulation": 1,
+        "Strategy": 0.6,
+        "Casual": 1
+      },
+      "audiences": {
+        "Young": 1,
+        "Everyone": 0.8,
+        "Mature": 0.6
+      }
+    },
+    {
+      "topic": "Game Dev",
+      "genres": {
+        "Action": 0.6,
+        "Adventure": 0.7,
+        "RPG": 0.6,
+        "Simulation": 1,
+        "Strategy": 0.6,
+        "Casual": 0.8
+      },
+      "audiences": {
+        "Young": 0.9,
+        "Everyone": 1,
+        "Mature": 0.7
+      }
+    },
+    {
+      "topic": "Government",
+      "genres": {
+        "Action": 0.6,
+        "Adventure": 0.6,
+        "RPG": 0.6,
+        "Simulation": 1,
+        "Strategy": 1,
+        "Casual": 0.7
+      },
+      "audiences": {
+        "Young": 0.6,
+        "Everyone": 1,
+        "Mature": 0.8
+      }
+    },
+    {
+      "topic": "Hacking",
+      "genres": {
+        "Action": 0.7,
+        "Adventure": 0.8,
+        "RPG": 0.7,
+        "Simulation": 1,
+        "Strategy": 1,
+        "Casual": 0.6
+      },
+      "audiences": {
+        "Young": 0.7,
+        "Everyone": 0.9,
+        "Mature": 1
+      }
+    },
+    {
+      "topic": "History",
+      "genres": {
+        "Action": 0.8,
+        "Adventure": 0.8,
+        "RPG": 0.8,
+        "Simulation": 1,
+        "Strategy": 1,
+        "Casual": 0.9
+      },
+      "audiences": {
+        "Young": 0.8,
+        "Everyone": 1,
+        "Mature": 0.9
+      }
+    },
+    {
+      "topic": "Horror",
+      "genres": {
+        "Action": 1,
+        "Adventure": 1,
+        "RPG": 0.8,
+        "Simulation": 0.6,
+        "Strategy": 0.7,
+        "Casual": 0.8
+      },
+      "audiences": {
+        "Young": 0.6,
+        "Everyone": 0.9,
+        "Mature": 1
+      }
+    },
+    {
+      "topic": "Hospital",
+      "genres": {
+        "Action": 0.6,
+        "Adventure": 0.6,
+        "RPG": 0.8,
+        "Simulation": 1,
+        "Strategy": 0.8,
+        "Casual": 0.7
+      },
+      "audiences": {
+        "Young": 0.7,
+        "Everyone": 1,
+        "Mature": 0.8
+      }
+    },
+    {
+      "topic": "Hunting",
+      "genres": {
+        "Action": 1,
+        "Adventure": 0.9,
+        "RPG": 0.9,
+        "Simulation": 1,
+        "Strategy": 0.7,
+        "Casual": 0.9
+      },
+      "audiences": {
+        "Young": 0.9,
+        "Everyone": 1,
+        "Mature": 0.9
+      }
+    },
+    {
+      "topic": "Law",
+      "genres": {
+        "Action": 0.6,
+        "Adventure": 1,
+        "RPG": 0.9,
+        "Simulation": 0.9,
+        "Strategy": 0.9,
+        "Casual": 0.6
+      },
+      "audiences": {
+        "Young": 0.8,
+        "Everyone": 1,
+        "Mature": 0.7
+      }
+    },
+    {
+      "topic": "Life",
+      "genres": {
+        "Action": 0.6,
+        "Adventure": 1,
+        "RPG": 0.9,
+        "Simulation": 1,
+        "Strategy": 0.6,
+        "Casual": 0.8
+      },
+      "audiences": {
+        "Young": 1,
+        "Everyone": 1,
+        "Mature": 0.8
+      }
+    },
+    {
+      "topic": "Martial Arts",
+      "genres": {
+        "Action": 1,
+        "Adventure": 0.8,
+        "RPG": 1,
+        "Simulation": 1,
+        "Strategy": 0.7,
+        "Casual": 1
+      },
+      "audiences": {
+        "Young": 0.7,
+        "Everyone": 0.9,
+        "Mature": 1
+      }
+    },
+    {
+      "topic": "Medieval",
+      "genres": {
+        "Action": 1,
+        "Adventure": 1,
+        "RPG": 1,
+        "Simulation": 0.8,
+        "Strategy": 1,
+        "Casual": 0.7
+      },
+      "audiences": {
+        "Young": 1,
+        "Everyone": 1,
+        "Mature": 0.9
+      }
+    },
+    {
+      "topic": "Military",
+      "genres": {
+        "Action": 1,
+        "Adventure": 0.6,
+        "RPG": 0.8,
+        "Simulation": 1,
+        "Strategy": 1,
+        "Casual": 0.6
+      },
+      "audiences": {
+        "Young": 0.7,
+        "Everyone": 0.9,
+        "Mature": 1
+      }
+    },
+    {
+      "topic": "Movies",
+      "genres": {
+        "Action": 0.8,
+        "Adventure": 0.8,
+        "RPG": 0.6,
+        "Simulation": 1,
+        "Strategy": 0.6,
+        "Casual": 1
+      },
+      "audiences": {
+        "Young": 0.9,
+        "Everyone": 1,
+        "Mature": 0.9
+      }
+    },
+    {
+      "topic": "Music",
+      "genres": {
+        "Action": 1,
+        "Adventure": 0.9,
+        "RPG": 0.6,
+        "Simulation": 1,
+        "Strategy": 0.6,
+        "Casual": 1
+      },
+      "audiences": {
+        "Young": 1,
+        "Everyone": 0.9,
+        "Mature": 0.8
+      }
+    },
+    {
+      "topic": "Mystery",
+      "genres": {
+        "Action": 0.6,
+        "Adventure": 1,
+        "RPG": 1,
+        "Simulation": 0.8,
+        "Strategy": 0.6,
+        "Casual": 0.8
+      },
+      "audiences": {
+        "Young": 0.8,
+        "Everyone": 0.9,
+        "Mature": 1
+      }
+    },
+    {
+      "topic": "Ninja",
+      "genres": {
+        "Action": 1,
+        "Adventure": 0.8,
+        "RPG": 0.8,
+        "Simulation": 0.6,
+        "Strategy": 0.8,
+        "Casual": 0.9
+      },
+      "audiences": {
+        "Young": 1,
+        "Everyone": 0.9,
+        "Mature": 0.9
+      }
+    },
+    {
+      "topic": "Pirate",
+      "genres": {
+        "Action": 0.8,
+        "Adventure": 1,
+        "RPG": 0.9,
+        "Simulation": 0.9,
+        "Strategy": 0.7,
+        "Casual": 0.8
+      },
+      "audiences": {
+        "Young": 1,
+        "Everyone": 1,
+        "Mature": 0.8
+      }
+    },
+    {
+      "topic": "Post Apocalyptic",
+      "genres": {
+        "Action": 1,
+        "Adventure": 0.8,
+        "RPG": 1,
+        "Simulation": 0.6,
+        "Strategy": 0.9,
+        "Casual": 0.7
+      },
+      "audiences": {
+        "Young": 0.6,
+        "Everyone": 0.9,
+        "Mature": 1
+      }
+    },
+    {
+      "topic": "Prison",
+      "genres": {
+        "Action": 1,
+        "Adventure": 1,
+        "RPG": 0.8,
+        "Simulation": 1,
+        "Strategy": 0.8,
+        "Casual": 0.6
+      },
+      "audiences": {
+        "Young": 0.7,
+        "Everyone": 0.9,
+        "Mature": 1
+      }
+    },
+    {
+      "topic": "Racing",
+      "genres": {
+        "Action": 0.9,
+        "Adventure": 0.6,
+        "RPG": 0.8,
+        "Simulation": 1,
+        "Strategy": 0.7,
+        "Casual": 1
+      },
+      "audiences": {
+        "Young": 1,
+        "Everyone": 1,
+        "Mature": 0.9
+      }
+    },
+    {
+      "topic": "Romance",
+      "genres": {
+        "Action": 0.6,
+        "Adventure": 1,
+        "RPG": 0.8,
+        "Simulation": 0.9,
+        "Strategy": 0.6,
+        "Casual": 0.9
+      },
+      "audiences": {
+        "Young": 0.8,
+        "Everyone": 1,
+        "Mature": 1
+      }
+    },
+    {
+      "topic": "Rhythm",
+      "genres": {
+        "Action": 1,
+        "Adventure": 0.7,
+        "RPG": 0.7,
+        "Simulation": 1,
+        "Strategy": 0.6,
+        "Casual": 1
+      },
+      "audiences": {
+        "Young": 1,
+        "Everyone": 0.9,
+        "Mature": 0.8
+      }
+    },
+    {
+      "topic": "Sci-Fi",
+      "genres": {
+        "Action": 1,
+        "Adventure": 1,
+        "RPG": 1,
+        "Simulation": 1,
+        "Strategy": 1,
+        "Casual": 0.8
+      },
+      "audiences": {
+        "Young": 0.8,
+        "Everyone": 1,
+        "Mature": 1
+      }
+    },
+    {
+      "topic": "School",
+      "genres": {
+        "Action": 0.8,
+        "Adventure": 1,
+        "RPG": 1,
+        "Simulation": 1,
+        "Strategy": 1,
+        "Casual": 0.8
+      },
+      "audiences": {
+        "Young": 1,
+        "Everyone": 0.9,
+        "Mature": 0.7
+      }
+    },
+    {
+      "topic": "Space",
+      "genres": {
+        "Action": 1,
+        "Adventure": 0.8,
+        "RPG": 0.6,
+        "Simulation": 1,
+        "Strategy": 1,
+        "Casual": 0.7
+      },
+      "audiences": {
+        "Young": 0.8,
+        "Everyone": 1,
+        "Mature": 1
+      }
+    },
+    {
+      "topic": "Sports",
+      "genres": {
+        "Action": 1,
+        "Adventure": 0.6,
+        "RPG": 0.6,
+        "Simulation": 1,
+        "Strategy": 0.7,
+        "Casual": 1
+      },
+      "audiences": {
+        "Young": 1,
+        "Everyone": 1,
+        "Mature": 0.8
+      }
+    },
+    {
+      "topic": "Spy",
+      "genres": {
+        "Action": 1,
+        "Adventure": 1,
+        "RPG": 1,
+        "Simulation": 0.8,
+        "Strategy": 0.7,
+        "Casual": 0.8
+      },
+      "audiences": {
+        "Young": 0.8,
+        "Everyone": 0.9,
+        "Mature": 1
+      }
+    },
+    {
+      "topic": "Superheroes",
+      "genres": {
+        "Action": 1,
+        "Adventure": 0.6,
+        "RPG": 0.9,
+        "Simulation": 0.6,
+        "Strategy": 0.6,
+        "Casual": 0.7
+      },
+      "audiences": {
+        "Young": 1,
+        "Everyone": 1,
+        "Mature": 1
+      }
+    },
+    {
+      "topic": "Surgery",
+      "genres": {
+        "Action": 0.8,
+        "Adventure": 0.7,
+        "RPG": 0.6,
+        "Simulation": 1,
+        "Strategy": 0.7,
+        "Casual": 0.6
+      },
+      "audiences": {
+        "Young": 0.8,
+        "Everyone": 1,
+        "Mature": 0.9
+      }
+    },
+    {
+      "topic": "Time Travel",
+      "genres": {
+        "Action": 0.9,
+        "Adventure": 1,
+        "RPG": 1,
+        "Simulation": 0.7,
+        "Strategy": 0.6,
+        "Casual": 0.7
+      },
+      "audiences": {
+        "Young": 0.9,
+        "Everyone": 1,
+        "Mature": 0.8
+      }
+    },
+    {
+      "topic": "Transport",
+      "genres": {
+        "Action": 0.6,
+        "Adventure": 0.6,
+        "RPG": 0.6,
+        "Simulation": 1,
+        "Strategy": 1,
+        "Casual": 0.6
+      },
+      "audiences": {
+        "Young": 0.9,
+        "Everyone": 1,
+        "Mature": 0.7
+      }
+    },
+    {
+      "topic": "UFO",
+      "genres": {
+        "Action": 1,
+        "Adventure": 0.8,
+        "RPG": 0.6,
+        "Simulation": 0.8,
+        "Strategy": 1,
+        "Casual": 0.8
+      },
+      "audiences": {
+        "Young": 0.8,
+        "Everyone": 1,
+        "Mature": 0.9
+      }
+    },
+    {
+      "topic": "Vampire",
+      "genres": {
+        "Action": 1,
+        "Adventure": 0.8,
+        "RPG": 1,
+        "Simulation": 0.6,
+        "Strategy": 0.6,
+        "Casual": 0.7
+      },
+      "audiences": {
+        "Young": 0.7,
+        "Everyone": 1,
+        "Mature": 1
+      }
+    },
+    {
+      "topic": "Virtual Pet",
+      "genres": {
+        "Action": 0.6,
+        "Adventure": 0.8,
+        "RPG": 0.9,
+        "Simulation": 1,
+        "Strategy": 0.9,
+        "Casual": 1
+      },
+      "audiences": {
+        "Young": 1,
+        "Everyone": 0.8,
+        "Mature": 0.7
+      }
+    },
+    {
+      "topic": "Vocabulary",
+      "genres": {
+        "Action": 0.6,
+        "Adventure": 0.6,
+        "RPG": 0.6,
+        "Simulation": 1,
+        "Strategy": 1,
+        "Casual": 1
+      },
+      "audiences": {
+        "Young": 0.9,
+        "Everyone": 1,
+        "Mature": 0.6
+      }
+    },
+    {
+      "topic": "Werewolf",
+      "genres": {
+        "Action": 1,
+        "Adventure": 0.8,
+        "RPG": 1,
+        "Simulation": 0.6,
+        "Strategy": 0.6,
+        "Casual": 0.7
+      },
+      "audiences": {
+        "Young": 0.7,
+        "Everyone": 0.9,
+        "Mature": 1
+      }
+    },
+    {
+      "topic": "Wild West",
+      "genres": {
+        "Action": 0.9,
+        "Adventure": 0.7,
+        "RPG": 1,
+        "Simulation": 0.6,
+        "Strategy": 0.6,
+        "Casual": 0.7
+      },
+      "audiences": {
+        "Young": 1,
+        "Everyone": 0.9,
+        "Mature": 1
+      }
+    },
+    {
+      "topic": "Zombies",
+      "genres": {
+        "Action": 1,
+        "Adventure": 0.9,
+        "RPG": 0.6,
+        "Simulation": 0.6,
+        "Strategy": 0.9,
+        "Casual": 1
+      },
+      "audiences": {
+        "Young": 0.9,
+        "Everyone": 0.8,
+        "Mature": 1
+      }
+    }
+  ],
+  "platforms": [
+    {
+      "platform": "PC",
+      "genres": {
+        "Action": 0.9,
+        "Adventure": 1,
+        "RPG": 1,
+        "Simulation": 1,
+        "Strategy": 1,
+        "Casual": 0.6
+      }
+    },
+    {
+      "platform": "Govodore 64",
+      "genres": {
+        "Action": 0.9,
+        "Adventure": 1,
+        "RPG": 0.9,
+        "Simulation": 0.9,
+        "Strategy": 1,
+        "Casual": 0.7
+      }
+    },
+    {
+      "platform": "TES",
+      "genres": {
+        "Action": 0.8,
+        "Adventure": 0.7,
+        "RPG": 0.8,
+        "Simulation": 0.8,
+        "Strategy": 0.7,
+        "Casual": 1
+      }
+    },
+    {
+      "platform": "Master V",
+      "genres": {
+        "Action": 0.9,
+        "Adventure": 0.7,
+        "RPG": 0.8,
+        "Simulation": 0.8,
+        "Strategy": 0.7,
+        "Casual": 1
+      }
+    },
+    {
+      "platform": "Gameling",
+      "genres": {
+        "Action": 0.8,
+        "Adventure": 0.7,
+        "RPG": 0.9,
+        "Simulation": 0.9,
+        "Strategy": 0.6,
+        "Casual": 1
+      }
+    },
+    {
+      "platform": "Vena Gear",
+      "genres": {
+        "Action": 0.9,
+        "Adventure": 0.8,
+        "RPG": 0.8,
+        "Simulation": 0.9,
+        "Strategy": 0.6,
+        "Casual": 1
+      }
+    },
+    {
+      "platform": "Vena Oasis",
+      "genres": {
+        "Action": 1,
+        "Adventure": 0.8,
+        "RPG": 0.8,
+        "Simulation": 0.9,
+        "Strategy": 0.6,
+        "Casual": 0.7
+      }
+    },
+    {
+      "platform": "Super TES",
+      "genres": {
+        "Action": 0.9,
+        "Adventure": 0.9,
+        "RPG": 0.9,
+        "Simulation": 1,
+        "Strategy": 0.7,
+        "Casual": 0.9
+      }
+    },
+    {
+      "platform": "PlaySystem",
+      "genres": {
+        "Action": 1,
+        "Adventure": 0.8,
+        "RPG": 1,
+        "Simulation": 0.9,
+        "Strategy": 0.7,
+        "Casual": 0.6
+      }
+    },
+    {
+      "platform": "TES 64",
+      "genres": {
+        "Action": 0.9,
+        "Adventure": 0.8,
+        "RPG": 0.7,
+        "Simulation": 0.8,
+        "Strategy": 0.7,
+        "Casual": 0.9
+      }
+    },
+    {
+      "platform": "DreamVast",
+      "genres": {
+        "Action": 1,
+        "Adventure": 0.7,
+        "RPG": 0.8,
+        "Simulation": 1,
+        "Strategy": 0.7,
+        "Casual": 0.7
+      }
+    },
+    {
+      "platform": "PlaySystem 2",
+      "genres": {
+        "Action": 1,
+        "Adventure": 0.8,
+        "RPG": 1,
+        "Simulation": 0.9,
+        "Strategy": 0.7,
+        "Casual": 0.9
+      }
+    },
+    {
+      "platform": "mBox",
+      "genres": {
+        "Action": 1,
+        "Adventure": 0.8,
+        "RPG": 0.9,
+        "Simulation": 0.9,
+        "Strategy": 0.7,
+        "Casual": 0.7
+      }
+    },
+    {
+      "platform": "Game Sphere",
+      "genres": {
+        "Action": 0.8,
+        "Adventure": 0.8,
+        "RPG": 0.7,
+        "Simulation": 0.8,
+        "Strategy": 0.7,
+        "Casual": 1
+      }
+    },
+    {
+      "platform": "GS",
+      "genres": {
+        "Action": 0.9,
+        "Adventure": 0.9,
+        "RPG": 1,
+        "Simulation": 0.9,
+        "Strategy": 0.9,
+        "Casual": 1
+      }
+    },
+    {
+      "platform": "PPS",
+      "genres": {
+        "Action": 1,
+        "Adventure": 0.7,
+        "RPG": 1,
+        "Simulation": 0.8,
+        "Strategy": 0.8,
+        "Casual": 0.8
+      }
+    },
+    {
+      "platform": "mBox 360",
+      "genres": {
+        "Action": 1,
+        "Adventure": 0.9,
+        "RPG": 1,
+        "Simulation": 0.9,
+        "Strategy": 0.7,
+        "Casual": 0.9
+      }
+    },
+    {
+      "platform": "Nuu",
+      "genres": {
+        "Action": 0.8,
+        "Adventure": 0.6,
+        "RPG": 0.7,
+        "Simulation": 1,
+        "Strategy": 0.7,
+        "Casual": 1
+      }
+    },
+    {
+      "platform": "PlaySystem 3",
+      "genres": {
+        "Action": 1,
+        "Adventure": 0.9,
+        "RPG": 0.9,
+        "Simulation": 1,
+        "Strategy": 0.7,
+        "Casual": 0.8
+      }
+    },
+    {
+      "platform": "grPhone",
+      "genres": {
+        "Action": 0.8,
+        "Adventure": 0.8,
+        "RPG": 0.7,
+        "Simulation": 0.9,
+        "Strategy": 0.7,
+        "Casual": 1
+      }
+    },
+    {
+      "platform": "grPad",
+      "genres": {
+        "Action": 0.8,
+        "Adventure": 0.9,
+        "RPG": 0.7,
+        "Simulation": 0.9,
+        "Strategy": 0.9,
+        "Casual": 1
+      }
+    },
+    {
+      "platform": "mPad",
+      "genres": {
+        "Action": 0.7,
+        "Adventure": 0.9,
+        "RPG": 0.8,
+        "Simulation": 0.9,
+        "Strategy": 0.7,
+        "Casual": 0.9
+      }
+    },
+    {
+      "platform": "Wuu",
+      "genres": {
+        "Action": 0.9,
+        "Adventure": 0.7,
+        "RPG": 0.8,
+        "Simulation": 1,
+        "Strategy": 0.7,
+        "Casual": 1
+      }
+    },
+    {
+      "platform": "OYA",
+      "genres": {
+        "Action": 0.9,
+        "Adventure": 0.7,
+        "RPG": 0.8,
+        "Simulation": 0.9,
+        "Strategy": 0.8,
+        "Casual": 1
+      }
+    },
+    {
+      "platform": "mBox One",
+      "genres": {
+        "Action": 1,
+        "Adventure": 0.8,
+        "RPG": 0.9,
+        "Simulation": 0.9,
+        "Strategy": 0.7,
+        "Casual": 0.9
+      }
+    },
+    {
+      "platform": "PlaySystem 4",
+      "genres": {
+        "Action": 1,
+        "Adventure": 0.8,
+        "RPG": 1,
+        "Simulation": 0.9,
+        "Strategy": 0.7,
+        "Casual": 0.9
+      }
+    },
+    {
+      "platform": "mBox Next",
+      "genres": {
+        "Action": 0.9,
+        "Adventure": 0.9,
+        "RPG": 0.9,
+        "Simulation": 0.8,
+        "Strategy": 0.7,
+        "Casual": 1
+      }
+    },
+    {
+      "platform": "PlaySystem 5",
+      "genres": {
+        "Action": 1,
+        "Adventure": 0.7,
+        "RPG": 0.9,
+        "Simulation": 1,
+        "Strategy": 0.7,
+        "Casual": 0.9
+      }
+    }
+  ]
+}
