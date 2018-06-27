@@ -21,7 +21,7 @@
             <a class="nav-link" href="#platforms">Platforms</a>
           </li>
         </ul>
-        <form class="form-inline my-0">
+        <form class="form-inline mb-3 my-lg-0">
           <div class="input-group mr-sm-3 ">
             <input class="form-control rounded-0"
                    type="search"

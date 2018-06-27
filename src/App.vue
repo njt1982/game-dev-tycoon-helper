@@ -6,6 +6,9 @@
 </template>
 
 <script>
+import 'popper.js';
+import 'bootstrap';
+
 import Helper from './components/Helper';
 import Header from './components/Header';
 
