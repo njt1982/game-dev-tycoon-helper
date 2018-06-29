@@ -17,8 +17,17 @@
           <li class="nav-item">
             <a class="nav-link" href="#topics">Topics</a>
           </li>
+
           <li class="nav-item">
             <a class="nav-link" href="#platforms">Platforms</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#single_genre_focus">Single Genre Focus</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#multi_genre_focus">Multiple Genre Focus</a>
           </li>
         </ul>
       </div>

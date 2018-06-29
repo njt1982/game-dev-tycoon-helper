@@ -2,25 +2,33 @@
   <div class="container mt-4">
     <h2 v-if="data === undefined">Please wait, loading...</h2>
 
-    <div v-if="data !== undefined">
-      <a name="topics"></a>
+    <template v-if="data !== undefined">
+
       <SortableTable title="Topics"
                      keyName="topic"
+                     anchorName="topics"
                      :headers="genre_headers"
                      :rows="data.topics" />
 
-      <a name="platforms"></a>
       <SortableTable title="Platforms"
                      keyName="platform"
+                     anchorName="platforms"
                      :headers="genre_headers"
                      :rows="data.platforms" />
 
-      <a name="dev_focus"></a>
-      <SortableTable title="Development Focus"
+      <SortableTable title="Single Genre Focus"
                      keyName="focus"
+                     anchorName="single_genre_focus"
                      :headers="stage_headers"
                      :rows="data.dev_focus" />
-   </div>
+
+      <SortableTable title="Multiple Genre Focus"
+                     keyName="focus"
+                     anchorName="multi_genre_focus"
+                     :headers="stage_headers"
+                     :rows="multiGenreDevFocus" />
+
+   </template>
   </div>
 </template>
 
@@ -98,7 +106,30 @@ export default {
   },
   computed: {
     multiGenreDevFocus() {
+      const multiDevFocus = [];
+      this.data.dev_focus.forEach((outerFocus) => {
+        this.data.dev_focus.forEach((innerFocus) => {
+          if (outerFocus.focus === innerFocus.focus) return;
 
+          const newRow = {
+            focus: `${outerFocus.focus}/${innerFocus.focus}`,
+            stage1: {},
+            stage2: {},
+            stage3: {},
+          };
+          ['stage1', 'stage2', 'stage3'].forEach((stage) => {
+            Object.keys(outerFocus[stage]).forEach((key) => {
+              newRow[stage][key] = (outerFocus[stage][key] * (2 / 3)) +
+                                   (innerFocus[stage][key] * (1 / 3));
+              newRow[stage][key] = newRow[stage][key].toFixed(2);
+            });
+          });
+
+          multiDevFocus.push(newRow);
+        });
+      });
+
+      return multiDevFocus;
     },
   },
 };

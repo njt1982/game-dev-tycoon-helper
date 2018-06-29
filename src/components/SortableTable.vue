@@ -1,5 +1,7 @@
 <template>
   <div class="table-responsive mb-5">
+    <a class="headerOffsetAnchor" :id="anchorName"></a>
+
     <form class="form-inline float-right mb-2">
       <div class="input-group">
         <input class="form-control rounded-0"
@@ -86,7 +88,7 @@
 <script>
 export default {
   name: 'sortableTable',
-  props: ['title', 'headers', 'rows', 'keyName'],
+  props: ['title', 'headers', 'rows', 'keyName', 'anchorName'],
   data() {
     return {
       currentSort: [],

@@ -11,16 +11,17 @@
   }
   .table-cell-ppp { background-color: #329632; &:after { content: '+++'; } }
   .table-cell-pp  { background-color: #3c773d; &:after { content: '++'; } }
+  .table-cell-nvi { background-color: #505050; &:after { content: '~'; } }
   .table-cell-p   { background-color: #465a46; &:after { content: '+'; } }
   .table-cell-mm  { background-color: #773d3d; &:after { content: '--'; } }
   .table-cell-mmm { background-color: #963333; &:after { content: '---'; } }
 }
 
-.container {
+.table-responsive {
   position: relative;
-  a[name] {
+  a.headerOffsetAnchor {
     position: absolute;
     left: 0px;
-    top: -92px;
+    top: -80px;
   }
 }
