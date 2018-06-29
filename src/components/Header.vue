@@ -21,28 +21,6 @@
             <a class="nav-link" href="#platforms">Platforms</a>
           </li>
         </ul>
-        <form class="form-inline mb-3 my-lg-0">
-          <div class="input-group mr-sm-3 ">
-            <input class="form-control rounded-0"
-                   type="search"
-                   placeholder="Filter"
-                   :value="filter"
-                   @input="$emit('update:filter', $event.target.value)"
-                   aria-label="Filter">
-            <div class="input-group-append">
-              <button class="btn btn-outline-secondary"
-                      type="button"
-                      @click="$emit('reset')">
-                <i class="fas fa-undo"></i>
-              </button>
-              <button class="btn btn-outline-secondary"
-                      type="button"
-                      @click="$emit('update:currentSortDirAsc', !currentSortDirAsc)">
-                <i :class="['fas', sortIcon]"></i>
-              </button>
-            </div>
-          </div>
-        </form>
       </div>
     </div>
   </nav>
@@ -52,11 +30,5 @@
 
 export default {
   name: 'Helper',
-  props: ['filter', 'currentSortDirAsc'],
-  computed: {
-    sortIcon() {
-      return this.currentSortDirAsc ? 'fa-sort-amount-down' : 'fa-sort-amount-up';
-    },
-  },
 };
 </script>

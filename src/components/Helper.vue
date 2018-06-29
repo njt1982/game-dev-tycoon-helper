@@ -1,230 +1,104 @@
 <template>
   <div class="container mt-4">
-    <div class="table-responsive mb-5">
+    <h2 v-if="data === undefined">Please wait, loading...</h2>
+
+    <div v-if="data !== undefined">
       <a name="topics"></a>
-      <h2>Topics</h2>
-      <table class="table table-bordered">
-        <thead>
-          <th class="border-top-0 border-left-0"></th>
-          <th class="text-center border-bottom-0" :colspan="genres.length">Genres</th>
-          <th class="border-bottom-0 border-top-0"></th>
-          <th class="text-center border-bottom-0" :colspan="audiences.length">Audience</th>
-        </thead>
-        <thead>
-          <th scope="col"
-            :class="currentSort.length === 0 ? 'table-info' : ''">
-            Topic
-          </th>
-          <th scope="col"
-            v-for="genre in genres"
-            :key="genre"
-            @click="sort(genre)"
-            :class="['text-center', currentSort.indexOf(genre) !== -1 ? 'table-info' : '']">
-            {{genre}}
-          </th>
-          <th class="border-bottom-0 border-top-0"></th>
-          <th scope="col"
-            v-for="audience in audiences"
-            :key="audience"
-            @click="sort(audience)"
-            :class="['text-center', currentSort.indexOf(audience) !== -1 ? 'table-info' : '']">
-            {{audience}}
-          </th>
-        </thead>
+      <SortableTable title="Topics"
+                     keyName="topic"
+                     :headers="genre_headers"
+                     :rows="data.topics" />
 
-        <tbody>
-          <tr v-for="topic in sortedTopics" :key="topic.topic">
-            <th scope="row">{{topic.topic}}</th>
-            <td v-for="genre in genres"
-              :key="topic + genre"
-              :class="['text-center', cellClass(topic.genres[genre])]">
-              {{topic.genres[genre]}}
-            </td>
-            <td></td>
-            <td v-for="audience in audiences"
-              :key="topic + audience"
-              :class="['text-center', cellClass(topic.audiences[audience])]">
-              {{topic.audiences[audience]}}
-            </td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-
-    <div class="table-responsive">
       <a name="platforms"></a>
-      <h2>Platforms</h2>
-      <table class="table table-bordered">
-        <thead>
-          <th class="border-top-0 border-left-0"></th>
-          <th class="text-center border-bottom-0" :colspan="genres.length">Genres</th>
-          <th class="border-bottom-0 border-top-0"></th>
-          <th class="text-center border-bottom-0" :colspan="audiences.length">Audience</th>
-        </thead>
-        <thead>
-          <th scope="col"
-            :class="currentSort.length === 0 ? 'table-info' : ''">
-            Platform
-          </th>
-          <th scope="col"
-            v-for="genre in genres"
-            :key="genre"
-            @click="sort(genre)"
-            :class="['text-center', currentSort.indexOf(genre) !== -1 ? 'table-info' : '']">
-            {{genre}}
-          </th>
-          <th class="border-bottom-0 border-top-0"></th>
-          <th scope="col"
-            v-for="audience in audiences"
-            :key="audience"
-            @click="sort(audience)"
-            :class="['text-center', currentSort.indexOf(audience) !== -1 ? 'table-info' : '']">
-            {{audience}}
-          </th>
-        </thead>
+      <SortableTable title="Platforms"
+                     keyName="platform"
+                     :headers="genre_headers"
+                     :rows="data.platforms" />
 
-        <tbody>
-          <tr v-for="platform in sortedPlatforms" :key="platform.platform">
-            <th scope="row">{{platform.platform}}</th>
-            <td v-for="genre in genres"
-              :key="platform + genre"
-              :class="['text-center', cellClass(platform.genres[genre])]">
-              {{platform.genres[genre]}}
-            </td>
-            <td></td>
-            <td v-for="audience in audiences"
-              :key="platform + audience"
-              :class="['text-center', cellClass(platform.audiences[audience])]">
-              {{platform.audiences[audience]}}
-            </td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
+      <a name="dev_focus"></a>
+      <SortableTable title="Development Focus"
+                     keyName="focus"
+                     :headers="stage_headers"
+                     :rows="data.dev_focus" />
+   </div>
   </div>
 </template>
 
 <script>
 import jQuery from 'jquery';
+import SortableTable from './SortableTable';
 
 export default {
   name: 'Helper',
+  components: {
+    SortableTable,
+  },
   props: ['filter', 'currentSortDirAsc'],
   data() {
     return {
-      currentSort: [],
-      modifiable_topics: [
-        'Cyberpunk',
-        'Detective',
-        'Law',
-        'Music',
-        'Mystery',
-        'Racing',
-        'Rhythm',
-        'Sports',
+      data: undefined,
+      genre_headers: [
+        {
+          title: 'Genres',
+          attribute: 'genres',
+          columns: [
+            'Action',
+            'Adventure',
+            'RPG',
+            'Simulation',
+            'Strategy',
+            'Casual',
+          ],
+        },
+        {
+          title: 'Audiences',
+          attribute: 'audiences',
+          columns: [
+            'Young',
+            'Everyone',
+            'Mature',
+          ],
+        },
       ],
-      genres: [
-        'Action',
-        'Adventure',
-        'RPG',
-        'Simulation',
-        'Strategy',
-        'Casual',
+      stage_headers: [
+        {
+          title: 'Stage 1',
+          attribute: 'stage1',
+          columns: [
+            'Engine',
+            'Gameplay',
+            'Story/Quests',
+          ],
+        },
+        {
+          title: 'Stage 2',
+          attribute: 'stage2',
+          columns: [
+            'Dialogues',
+            'Level Design',
+            'AI',
+          ],
+        },
+        {
+          title: 'Stage 3',
+          attribute: 'stage3',
+          columns: [
+            'World Design',
+            'Graphic',
+            'Sound',
+          ],
+        },
       ],
-      audiences: [
-        'Young',
-        'Everyone',
-        'Mature',
-      ],
-      topics: [],
-      platforms: [],
     };
   },
   mounted() {
     jQuery.getJSON('/static/data.json', (data) => {
-      this.topics = data.topics;
-      this.platforms = data.platforms;
+      this.data = data;
     });
   },
-  methods: {
-    sort(s) {
-      const idx = this.currentSort.indexOf(s);
-      if (idx === -1) {
-        if (this.currentSort.length === 2) {
-          this.currentSort.pop();
-        }
-
-        this.currentSort.push(s);
-      } else {
-        this.currentSort.splice(idx, 1);
-      }
-    },
-    cellClass(value) {
-      if (value >= 1.0) return 'table-cell-ppp';
-      if (value >= 0.9) return 'table-cell-pp';
-      if (value >= 0.8) return 'table-cell-p';
-      if (value >= 0.7) return 'table-cell-mm';
-
-      return 'table-cell-mmm';
-    },
-  },
   computed: {
-    sortedTopics() {
-      const modifier = this.currentSortDirAsc ? 1 : -1;
+    multiGenreDevFocus() {
 
-      let s = [...this.topics];
-      if (this.filter.length) {
-        s = s.filter(item => item.topic.toLowerCase().includes(this.filter.toLowerCase()));
-      }
-      return s.sort((a, b) => {
-        if (this.currentSort.length) {
-          const sortStack = [...this.currentSort];
-          while (sortStack.length) {
-            const sortKey = sortStack.shift();
-
-            let section = null;
-            if (this.genres.indexOf(sortKey) !== -1) {
-              section = 'genres';
-            } else if (this.audiences.indexOf(sortKey) !== -1) {
-              section = 'audiences';
-            }
-            const aVal = a[section][sortKey];
-            const bVal = b[section][sortKey];
-            if (aVal < bVal) return -1 * modifier;
-            if (aVal > bVal) return 1 * modifier;
-          }
-        }
-        return a.topic.localeCompare(b.topic) * modifier;
-      });
-    },
-
-    sortedPlatforms() {
-      const modifier = this.currentSortDirAsc ? 1 : -1;
-
-      let s = [...this.platforms];
-      if (this.filter.length) {
-        s = s.filter(item => item.platform.toLowerCase().includes(this.filter.toLowerCase()));
-      }
-      return s.sort((a, b) => {
-        if (this.currentSort.length) {
-          const sortStack = [...this.currentSort];
-          while (sortStack.length) {
-            const sortKey = sortStack.shift();
-
-            let section = null;
-            if (this.genres.indexOf(sortKey) !== -1) {
-              section = 'genres';
-            } else if (this.audiences.indexOf(sortKey) !== -1) {
-              section = 'audiences';
-            }
-            const aVal = a[section][sortKey];
-            const bVal = b[section][sortKey];
-            if (aVal < bVal) return -1 * modifier;
-            if (aVal > bVal) return 1 * modifier;
-          }
-        }
-        return a.platform.localeCompare(b.platform) * modifier;
-      });
     },
   },
 };

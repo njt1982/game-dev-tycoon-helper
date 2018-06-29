@@ -1,7 +1,7 @@
 <template>
   <div id="app">
-    <Header :filter.sync="filter" :currentSortDirAsc.sync="currentSortDirAsc" />
-    <Helper :filter="filter" :currentSortDirAsc="currentSortDirAsc" />
+    <Header />
+    <Helper />
   </div>
 </template>
 
@@ -17,12 +17,6 @@ export default {
   components: {
     Helper,
     Header,
-  },
-  data() {
-    return {
-      filter: '',
-      currentSortDirAsc: true,
-    };
   },
 };
 </script>

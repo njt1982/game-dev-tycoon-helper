@@ -2,6 +2,7 @@
   "topics": [
     {
       "topic": "Airplane",
+      "modifiable_topic": false,
       "genres": {
         "Action": 1,
         "Adventure": 0.6,
@@ -18,6 +19,7 @@
     },
     {
       "topic": "Aliens",
+      "modifiable_topic": false,
       "genres": {
         "Action": 1,
         "Adventure": 0.8,
@@ -34,6 +36,7 @@
     },
     {
       "topic": "Alternate History",
+      "modifiable_topic": false,
       "genres": {
         "Action": 1,
         "Adventure": 0.8,
@@ -50,6 +53,7 @@
     },
     {
       "topic": "Business",
+      "modifiable_topic": false,
       "genres": {
         "Action": 0.6,
         "Adventure": 0.8,
@@ -66,6 +70,7 @@
     },
     {
       "topic": "City",
+      "modifiable_topic": false,
       "genres": {
         "Action": 0.7,
         "Adventure": 0.6,
@@ -82,6 +87,7 @@
     },
     {
       "topic": "Comedy",
+      "modifiable_topic": false,
       "genres": {
         "Action": 0.6,
         "Adventure": 1,
@@ -98,6 +104,7 @@
     },
     {
       "topic": "Cyberpunk",
+      "modifiable_topic": true,
       "genres": {
         "Action": 1,
         "Adventure": 0.8,
@@ -114,6 +121,7 @@
     },
     {
       "topic": "Dance",
+      "modifiable_topic": false,
       "genres": {
         "Action": 0.7,
         "Adventure": 0.6,
@@ -130,6 +138,7 @@
     },
     {
       "topic": "Detective",
+      "modifiable_topic": true,
       "genres": {
         "Action": 0.6,
         "Adventure": 1,
@@ -146,6 +155,7 @@
     },
     {
       "topic": "Dungeon",
+      "modifiable_topic": false,
       "genres": {
         "Action": 1,
         "Adventure": 0.8,
@@ -162,6 +172,7 @@
     },
     {
       "topic": "Evolution",
+      "modifiable_topic": false,
       "genres": {
         "Action": 0.7,
         "Adventure": 0.6,
@@ -178,6 +189,7 @@
     },
     {
       "topic": "Fantasy",
+      "modifiable_topic": false,
       "genres": {
         "Action": 1,
         "Adventure": 1,
@@ -194,6 +206,7 @@
     },
     {
       "topic": "Fashion",
+      "modifiable_topic": false,
       "genres": {
         "Action": 0.6,
         "Adventure": 0.8,
@@ -210,6 +223,7 @@
     },
     {
       "topic": "Game Dev",
+      "modifiable_topic": false,
       "genres": {
         "Action": 0.6,
         "Adventure": 0.7,
@@ -226,6 +240,7 @@
     },
     {
       "topic": "Government",
+      "modifiable_topic": false,
       "genres": {
         "Action": 0.6,
         "Adventure": 0.6,
@@ -242,6 +257,7 @@
     },
     {
       "topic": "Hacking",
+      "modifiable_topic": false,
       "genres": {
         "Action": 0.7,
         "Adventure": 0.8,
@@ -258,6 +274,7 @@
     },
     {
       "topic": "History",
+      "modifiable_topic": false,
       "genres": {
         "Action": 0.8,
         "Adventure": 0.8,
@@ -274,6 +291,7 @@
     },
     {
       "topic": "Horror",
+      "modifiable_topic": false,
       "genres": {
         "Action": 1,
         "Adventure": 1,
@@ -290,6 +308,7 @@
     },
     {
       "topic": "Hospital",
+      "modifiable_topic": false,
       "genres": {
         "Action": 0.6,
         "Adventure": 0.6,
@@ -306,6 +325,7 @@
     },
     {
       "topic": "Hunting",
+      "modifiable_topic": false,
       "genres": {
         "Action": 1,
         "Adventure": 0.9,
@@ -322,6 +342,7 @@
     },
     {
       "topic": "Law",
+      "modifiable_topic": true,
       "genres": {
         "Action": 0.6,
         "Adventure": 1,
@@ -338,6 +359,7 @@
     },
     {
       "topic": "Life",
+      "modifiable_topic": false,
       "genres": {
         "Action": 0.6,
         "Adventure": 1,
@@ -354,6 +376,7 @@
     },
     {
       "topic": "Martial Arts",
+      "modifiable_topic": false,
       "genres": {
         "Action": 1,
         "Adventure": 0.8,
@@ -370,6 +393,7 @@
     },
     {
       "topic": "Medieval",
+      "modifiable_topic": false,
       "genres": {
         "Action": 1,
         "Adventure": 1,
@@ -386,6 +410,7 @@
     },
     {
       "topic": "Military",
+      "modifiable_topic": false,
       "genres": {
         "Action": 1,
         "Adventure": 0.6,
@@ -402,6 +427,7 @@
     },
     {
       "topic": "Movies",
+      "modifiable_topic": false,
       "genres": {
         "Action": 0.8,
         "Adventure": 0.8,
@@ -418,6 +444,7 @@
     },
     {
       "topic": "Music",
+      "modifiable_topic": true,
       "genres": {
         "Action": 1,
         "Adventure": 0.9,
@@ -434,6 +461,7 @@
     },
     {
       "topic": "Mystery",
+      "modifiable_topic": true,
       "genres": {
         "Action": 0.6,
         "Adventure": 1,
@@ -450,6 +478,7 @@
     },
     {
       "topic": "Ninja",
+      "modifiable_topic": false,
       "genres": {
         "Action": 1,
         "Adventure": 0.8,
@@ -466,6 +495,7 @@
     },
     {
       "topic": "Pirate",
+      "modifiable_topic": false,
       "genres": {
         "Action": 0.8,
         "Adventure": 1,
@@ -482,6 +512,7 @@
     },
     {
       "topic": "Post Apocalyptic",
+      "modifiable_topic": false,
       "genres": {
         "Action": 1,
         "Adventure": 0.8,
@@ -498,6 +529,7 @@
     },
     {
       "topic": "Prison",
+      "modifiable_topic": false,
       "genres": {
         "Action": 1,
         "Adventure": 1,
@@ -514,6 +546,7 @@
     },
     {
       "topic": "Racing",
+      "modifiable_topic": true,
       "genres": {
         "Action": 0.9,
         "Adventure": 0.6,
@@ -530,6 +563,7 @@
     },
     {
       "topic": "Romance",
+      "modifiable_topic": false,
       "genres": {
         "Action": 0.6,
         "Adventure": 1,
@@ -546,6 +580,7 @@
     },
     {
       "topic": "Rhythm",
+      "modifiable_topic": true,
       "genres": {
         "Action": 1,
         "Adventure": 0.7,
@@ -562,6 +597,7 @@
     },
     {
       "topic": "Sci-Fi",
+      "modifiable_topic": false,
       "genres": {
         "Action": 1,
         "Adventure": 1,
@@ -578,6 +614,7 @@
     },
     {
       "topic": "School",
+      "modifiable_topic": false,
       "genres": {
         "Action": 0.8,
         "Adventure": 1,
@@ -594,6 +631,7 @@
     },
     {
       "topic": "Space",
+      "modifiable_topic": false,
       "genres": {
         "Action": 1,
         "Adventure": 0.8,
@@ -610,6 +648,7 @@
     },
     {
       "topic": "Sports",
+      "modifiable_topic": true,
       "genres": {
         "Action": 1,
         "Adventure": 0.6,
@@ -626,6 +665,7 @@
     },
     {
       "topic": "Spy",
+      "modifiable_topic": false,
       "genres": {
         "Action": 1,
         "Adventure": 1,
@@ -642,6 +682,7 @@
     },
     {
       "topic": "Superheroes",
+      "modifiable_topic": false,
       "genres": {
         "Action": 1,
         "Adventure": 0.6,
@@ -658,6 +699,7 @@
     },
     {
       "topic": "Surgery",
+      "modifiable_topic": false,
       "genres": {
         "Action": 0.8,
         "Adventure": 0.7,
@@ -674,6 +716,7 @@
     },
     {
       "topic": "Time Travel",
+      "modifiable_topic": false,
       "genres": {
         "Action": 0.9,
         "Adventure": 1,
@@ -690,6 +733,7 @@
     },
     {
       "topic": "Transport",
+      "modifiable_topic": false,
       "genres": {
         "Action": 0.6,
         "Adventure": 0.6,
@@ -706,6 +750,7 @@
     },
     {
       "topic": "UFO",
+      "modifiable_topic": false,
       "genres": {
         "Action": 1,
         "Adventure": 0.8,
@@ -722,6 +767,7 @@
     },
     {
       "topic": "Vampire",
+      "modifiable_topic": false,
       "genres": {
         "Action": 1,
         "Adventure": 0.8,
@@ -738,6 +784,7 @@
     },
     {
       "topic": "Virtual Pet",
+      "modifiable_topic": false,
       "genres": {
         "Action": 0.6,
         "Adventure": 0.8,
@@ -754,6 +801,7 @@
     },
     {
       "topic": "Vocabulary",
+      "modifiable_topic": false,
       "genres": {
         "Action": 0.6,
         "Adventure": 0.6,
@@ -770,6 +818,7 @@
     },
     {
       "topic": "Werewolf",
+      "modifiable_topic": false,
       "genres": {
         "Action": 1,
         "Adventure": 0.8,
@@ -786,6 +835,7 @@
     },
     {
       "topic": "Wild West",
+      "modifiable_topic": false,
       "genres": {
         "Action": 0.9,
         "Adventure": 0.7,
@@ -802,6 +852,7 @@
     },
     {
       "topic": "Zombies",
+      "modifiable_topic": false,
       "genres": {
         "Action": 1,
         "Adventure": 0.9,
@@ -1264,6 +1315,116 @@
         "Young": 0.8,
         "Everyone": 1,
         "Mature": 0.8
+      }
+    }
+  ],
+  "dev_focus": [
+    {
+      "focus": "Action",
+      "stage1": {
+        "Engine": 1,
+        "Gameplay": 0.9,
+        "Story/Quests": 0.7
+      },
+      "stage2": {
+        "Dialogues": 0.6,
+        "Level Design": 0.9,
+        "AI": 1
+      },
+      "stage3": {
+        "World Design": 0.8,
+        "Graphic": 1,
+        "Sound": 0.9
+      }
+    },
+    {
+      "focus": "Adventure",
+      "stage1": {
+        "Engine": 0.7,
+        "Gameplay": 0.8,
+        "Story/Quests": 1
+      },
+      "stage2": {
+        "Dialogues": 1,
+        "Level Design": 0.8,
+        "AI": 0.7
+      },
+      "stage3": {
+        "World Design": 1,
+        "Graphic": 0.9,
+        "Sound": 0.8
+      }
+    },
+    {
+      "focus": "RPG",
+      "stage1": {
+        "Engine": 0.7,
+        "Gameplay": 0.9,
+        "Story/Quests": 1
+      },
+      "stage2": {
+        "Dialogues": 1,
+        "Level Design": 0.9,
+        "AI": 0.8
+      },
+      "stage3": {
+        "World Design": 1,
+        "Graphic": 0.9,
+        "Sound": 0.8
+      }
+    },
+    {
+      "focus": "Simulation",
+      "stage1": {
+        "Engine": 0.9,
+        "Gameplay": 1,
+        "Story/Quests": 0.8
+      },
+      "stage2": {
+        "Dialogues": 0.7,
+        "Level Design": 0.9,
+        "AI": 1
+      },
+      "stage3": {
+        "World Design": 0.8,
+        "Graphic": 0.9,
+        "Sound": 1
+      }
+    },
+    {
+      "focus": "Strategy",
+      "stage1": {
+        "Engine": 0.9,
+        "Gameplay": 1,
+        "Story/Quests": 0.8
+      },
+      "stage2": {
+        "Dialogues": 0.7,
+        "Level Design": 1,
+        "AI": 0.9
+      },
+      "stage3": {
+        "World Design": 1,
+        "Graphic": 0.8,
+        "Sound": 0.9
+      }
+    },
+    {
+      "focus": "Casual",
+      "stage1": {
+        "Engine": 0.6,
+        "Gameplay": 1,
+        "Story/Quests": 0.7
+      },
+      "stage2": {
+        "Dialogues": 0.7,
+        "Level Design": 1,
+        "AI": 0.6
+      },
+      "stage3": {
+        "World Design": 0.7,
+        "Graphic": 1,
+        "Sound": 0.9
       }
     }
   ]
