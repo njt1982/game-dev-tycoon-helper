@@ -59,8 +59,12 @@
             v-for="colTitle in headerGroup.columns"
             :key="colTitle"
             @click="sort(colTitle)"
-            :class="['text-center', currentSort.indexOf(colTitle) !== -1 ? 'table-info' : '']">
-            {{colTitle}}
+            :class="[
+              'text-center',
+              'rotated',
+              currentSort.indexOf(colTitle) !== -1 ? 'table-info' : ''
+            ]">
+            <div>{{colTitle}}</div>
           </th>
         </template>
       </thead>

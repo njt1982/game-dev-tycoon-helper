@@ -1,6 +1,29 @@
+.gdt-container {
+  @extend .container;
+  @include media-breakpoint-down(sm) {
+    max-width: none;
+  }
+}
+
 .table {
   th {
     font-weight: lighter;
+    &.rotated {
+      @include media-breakpoint-down(sm) {
+        white-space: nowrap;
+        height: 100px;
+        min-width: 40px;
+        position: relative;
+        div {
+          transform:  rotate(-90deg);
+          width: 1rem;
+          position: absolute;
+          left: 100%;
+          margin-left: -65%;
+          bottom: 0.25rem;
+        }
+      }
+    }
   }
   .table-cell-ppp, .table-cell-pp, .table-cell-p, .table-cell-mm, .table-cell-mmm {
     font-size: 0;

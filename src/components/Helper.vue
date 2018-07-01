@@ -1,5 +1,5 @@
 <template>
-  <div class="container mt-4">
+  <div class="gdt-container mt-4">
     <h2 v-if="data === undefined">Please wait, loading...</h2>
 
     <template v-if="data !== undefined">
