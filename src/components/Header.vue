@@ -1,7 +1,7 @@
 <template>
   <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-primary">
     <div class="container">
-      <a class="navbar-brand" href="/" title="Game Dev Tycoon Helper">GDT Helper</a>
+      <a class="navbar-brand" href="https://njt1982.github.io/game-dev-tycoon-helper/" title="Game Dev Tycoon Helper">GDT Helper</a>
       <button class="navbar-toggler"
               type="button"
               data-toggle="collapse"

@@ -100,7 +100,7 @@ export default {
     };
   },
   mounted() {
-    jQuery.getJSON('/static/data.json', (data) => {
+    jQuery.getJSON('static/data.json', (data) => {
       this.data = data;
     });
   },
