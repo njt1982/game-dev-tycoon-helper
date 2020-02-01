@@ -1,34 +1,42 @@
 <template>
   <div class="gdt-container mt-4">
-    <h2 v-if="data === undefined">Please wait, loading...</h2>
+    <h2 v-if="data === undefined">
+      Please wait, loading...
+    </h2>
 
     <template v-if="data !== undefined">
+      <SortableTable
+        title="Topics"
+        key-name="topic"
+        anchor-name="topics"
+        :headers="genre_headers"
+        :rows="data.topics"
+      />
 
-      <SortableTable title="Topics"
-                     keyName="topic"
-                     anchorName="topics"
-                     :headers="genre_headers"
-                     :rows="data.topics" />
+      <SortableTable
+        title="Platforms"
+        key-name="platform"
+        anchor-name="platforms"
+        :headers="genre_headers"
+        :rows="data.platforms"
+      />
 
-      <SortableTable title="Platforms"
-                     keyName="platform"
-                     anchorName="platforms"
-                     :headers="genre_headers"
-                     :rows="data.platforms" />
+      <SortableTable
+        title="Single Genre Focus"
+        key-name="focus"
+        anchor-name="single_genre_focus"
+        :headers="stage_headers"
+        :rows="data.dev_focus"
+      />
 
-      <SortableTable title="Single Genre Focus"
-                     keyName="focus"
-                     anchorName="single_genre_focus"
-                     :headers="stage_headers"
-                     :rows="data.dev_focus" />
-
-      <SortableTable title="Multiple Genre Focus"
-                     keyName="focus"
-                     anchorName="multi_genre_focus"
-                     :headers="stage_headers"
-                     :rows="multiGenreDevFocus" />
-
-   </template>
+      <SortableTable
+        title="Multiple Genre Focus"
+        key-name="focus"
+        anchor-name="multi_genre_focus"
+        :headers="stage_headers"
+        :rows="multiGenreDevFocus"
+      />
+    </template>
   </div>
 </template>
 
@@ -41,7 +49,12 @@ export default {
   components: {
     SortableTable,
   },
-  props: ['filter', 'currentSortDirAsc'],
+  props: {
+    filter: {
+      type: String,
+      default: ''
+    }
+  },
   data() {
     return {
       data: undefined,
@@ -99,11 +112,6 @@ export default {
       ],
     };
   },
-  mounted() {
-    jQuery.getJSON('static/data.json', (data) => {
-      this.data = data;
-    });
-  },
   computed: {
     multiGenreDevFocus() {
       const multiDevFocus = [];
@@ -131,6 +139,11 @@ export default {
 
       return multiDevFocus;
     },
+  },
+    mounted() {
+    jQuery.getJSON('data.json', (data) => {
+      this.data = data;
+    });
   },
 };
 </script>
